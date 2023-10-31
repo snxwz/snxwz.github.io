@@ -1,0 +1,90 @@
+.SidebarComponent {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ContentComponent {
+    flex: 1;
+    overflow-y: auto;
+    /* background: #22242a; */
+}
+
+.navbar {
+    background: #22242a;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0.5, 0.5);
+}
+
+.sidebar-btn {
+    color: white;
+    position: fixed;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: color;
+}
+
+.sidebar-btn:hover {
+    color: #4ccee8;
+}
+
+.title {
+    color: #fff;
+    font-size: 22px;
+    margin-left: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.title span {
+    color: tan;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.offcanvas {
+    width: 250px !important;
+}
+
+.offcanvas-title {
+    white-space: nowrap;
+    color: #fff;
+    font-size: 22px;
+    margin-left: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.offcanvas-title span {
+    color: yellow;
+}
+
+.nav-item {
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.nav-item:hover {
+    background-color: #474747;
+}
+
+.nav-item span {
+    margin-left: 20px;
+}
+
+.nav-item i {
+    margin-left: 15px;
+}
+
+@media(max-width: 400px) {
+    .title{
+        font-size: 15px;
+    }
+}

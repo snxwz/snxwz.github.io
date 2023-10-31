@@ -1,0 +1,32 @@
+.profileIMG {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.EduIMG {
+    width: 300px;
+    max-height: 220px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.skillsIMG {
+    height: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@media(max-width: 400px) {
+    .profileIMG {
+        height: 200px;
+        width: 200px;
+    }
+}
