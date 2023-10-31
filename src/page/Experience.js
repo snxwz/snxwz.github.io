@@ -19,7 +19,7 @@ const ExperiencePage = () => {
             <div className="School mb-5">
                 <div className="row">
                     <div className="col-md-4 d-flex justify-content-center align-items-center mb-4">
-                        <img className='EduIMG' src='http://web.msu.ac.th/ssystem/msuhotnews/imgallery/20230317143352_2.jpg' alt='TSM Dev' />
+                        <img className='EduIMG' src='https://scontent.fbkk12-2.fna.fbcdn.net/v/t39.30808-6/336547443_888220719145578_585919739132036763_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=i7OXEi24C34AX9PGDDI&_nc_ht=scontent.fbkk12-2.fna&oh=00_AfB1317UiuyhEMvOFicNvbdXDUzOoKhn-ArWXxi91oXYQQ&oe=654447A0' alt='TSM Dev' />
                     </div>
                     <div className="col-md-8 mb-3 px-5">
                         <h5 className="fw-bold">Happy Academy : TSM Developer [Second runner-up] </h5>
