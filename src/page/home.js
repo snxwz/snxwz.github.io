@@ -14,9 +14,8 @@ const HomePage = () => {
                         <div className='col-md-6 mb-3 mt-5'>
                             <h4 className='fw-bold'>Hello There !</h4>
                             <h2 className='fw-bold fs-1 mb-3'>I'm Adithep P.</h2>
-                            <h5 className='fw-bold'>I'm into Frontend Developer</h5>
                             <hr />
-                            <h5 className='fw-bold mb-3'>And I'm learning about cyber security and networking.</h5>
+                            <h5 className='fw-bold mb-3'>I'm into Cyber Security, Networking, Web Development.</h5>
                             <Link to='/about'><button type="button" className="btn btn-success mb-4"><i className="bi bi-person-fill"></i> <strong>About Me</strong></button></Link>
                             <h1><Link to='https://www.facebook.com/Adithep.787'><i className="bi bi-facebook"></i></Link> &nbsp; <Link to='https://github.com/snxwz'><i className="bi bi-github"></i></Link> &nbsp; <Link to='https://www.instagram.com/adithtor13.conf/'><i className="bi bi-instagram"></i></Link> &nbsp; <Link to={`mailto:${'adithep787ch@gmail.com'}`}><i className="bi bi-envelope-at-fill"></i></Link></h1>
                         </div>
